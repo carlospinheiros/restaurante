@@ -1,0 +1,190 @@
+.fundo {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+img {
+  position: fixed;
+}
+
+body {
+  overflow: hidden;
+  font-family: Lato,sans-serif;
+}
+
+.formulario {
+    position: relative;
+    z-index: 2;
+    padding: 50px 30px 50px 30px;
+    background-color: #8E8E8E85;
+    border-radius: 0 0 5px 5px;
+    font: 300 2rem Lato,sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+    /*border: 1px solid #fff;
+    border-top: none;*/
+}
+
+legend {
+    text-align: center;
+    border-bottom: 0;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font: 600 3.5rem Lato,sans-serif;
+    text-shadow: 0px 2px #0606064a;
+}
+
+label {
+  font-weight: normal;
+  text-shadow: 0px 2px #0606064a;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.btnForm {
+  text-align: center;
+}
+
+
+.botao {
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+    background-color: #2b2b2b2e;
+    padding: .9375rem;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #cecece;
+    border-radius: 30px;
+}
+
+#cadastrarfuncionario .botao {
+  width: 100%;
+}
+
+input.botao:hover {
+    background-color: #00000059;
+}
+
+.entrar, .sair {
+  margin-top: 30px;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 5px 20px 5px 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 150px;
+}
+
+.entrar {
+  background-color: #00a08c;
+  border: 1px solid #019280;
+}
+
+#opcoessistema input[name='entrar'] {
+  margin-right: 20px;
+}
+
+.sair {
+  background-color: #d93831;
+  border: 1px solid #b1322c;
+}
+
+.formulario input.autenticacao {
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    width: 100%;
+ }
+
+ hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #0b0b0b4f;
+    width: 100%;
+}
+
+#cadastrarfuncionario label, #visualizarpedido label, #cadastrarcliente label, #opcoessistema label, #cadastrarpedido label, #cadastrarproduto label, #cancelarpedido label, #visualizarfuncionario label {
+  font-size: 14px;
+}
+
+span {
+  color: #ffd3c0;;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#opcoessistema label {
+  margin-bottom: 10px;
+}
+
+#opcoessistema .form-control {
+    height: 40px;
+}
+
+select {
+  font-family: Lato,sans-serif;
+  font-weight: 600;
+  color: #6d6d6d;
+  font-size: 16px !important;
+
+}
+
+#cadastrarproduto select {
+    font-size: 13px !important;
+}
+
+
+.form-control {
+    height: 30px;
+ }   
+
+
+.grupo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;  
+}
+
+.grupo .form-group:not(:first-child) {
+    margin-left: 15px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btnsGroup {
+  text-align: center;
+}
+
+.blocoView {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+#visualizarfuncionario .form-group, #visualizarpedido .form-group {
+    margin-bottom: 5px;
+}
+
+/*
+#formPedido {
+  height: 800px;
+  overflow: auto;
+}
+*/
+
+
